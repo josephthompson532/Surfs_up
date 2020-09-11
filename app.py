@@ -17,8 +17,10 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 
 # Save our references to each table
+#Base.classes.key()
 Measurement = Base.classes.measurement
 Station = Base.classes.station
+
 
 # Create a session link from Python to our database
 session = Session(engine)
