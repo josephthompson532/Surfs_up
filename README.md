@@ -27,9 +27,7 @@ Lastly, to get the summary statistics, I used the describe method on the newly c
 * The minimum temperature in December was 56 degrees while in June it was 64 degrees.
 * The max however was virtually the same between the two months, being 85 in June and 83 in December.
 
-![Screen Shot 2020-09-13 at 4 08 03 PM](https://user-images.githubusercontent.com/66881241/93031146-7227a600-f5dd-11ea-907c-f321510acb51.png)
-
-![Screen Shot 2020-09-13 at 4 08 08 PM](https://user-images.githubusercontent.com/66881241/93031153-781d8700-f5dd-11ea-9383-b40ecf58168e.png)
+![Screen Shot 2020-09-13 at 4 08 03 PM](https://user-images.githubusercontent.com/66881241/93031146-7227a600-f5dd-11ea-907c-f321510acb51.png) ![Screen Shot 2020-09-13 at 4 08 08 PM](https://user-images.githubusercontent.com/66881241/93031153-781d8700-f5dd-11ea-9383-b40ecf58168e.png)
 
 
 
