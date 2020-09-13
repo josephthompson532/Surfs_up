@@ -10,7 +10,7 @@ Do this, we first imported the required dependencies including the numpy, dateti
 
 We then initiated an engine to alter the sqlite database into a structure that we could query. Then, we reflected the database and its tables into a new model and assigned the tables for "Measurement" and "Station" to two variables. To finish preparation to query the database we initiated a session from sql alchmey to link python and the database.
 
-![Screen Shot 2020-09-13 at 4 09 05 PM](https://user-images.githubusercontent.com/66881241/93031174-a26f4480-f5dd-11ea-8f64-41060df1ac02.png)
+![Screen Shot 2020-09-13 at 4 08 57 PM](https://user-images.githubusercontent.com/66881241/93031267-4a850d80-f5de-11ea-8c9f-7dbe8b9602fb.png)
 
 To query the SQLite database, we used the session object along with its query, filter, and extract methods to gather all temperatures from the Measurement table that were in a given month. 
 
@@ -22,7 +22,6 @@ Then, I used numpy's "ravel" function convert the gathered temperatures for a gi
 
 Lastly, to get the summary statistics, I used the describe method on the newly created dataframe holding the monthly temperature values.
 
-![Screen Shot 2020-09-13 at 4 09 05 PM](https://user-images.githubusercontent.com/66881241/93031192-c763b780-f5dd-11ea-9921-1555e900c265.png)
 
 ## Results
 * Average temperature between the two months was only marginally different at 75 degrees for June and 71 degrees for December. 
