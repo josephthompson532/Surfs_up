@@ -14,13 +14,15 @@ We then initiated an engine to alter the sqlite database into a structure that w
 
 To query the SQLite database, we used the session object along with its query, filter, and extract methods to gather all temperatures from the Measurement table that were in a given month. 
 
-![Screen Shot 2020-09-13 at 4 08 30 PM](https://user-images.githubusercontent.com/66881241/93031203-df3b3b80-f5dd-11ea-8e55-7c34b55447b3.png)
+![Screen Shot 2020-09-13 at 4 08 41 PM](https://user-images.githubusercontent.com/66881241/93031240-1c073280-f5de-11ea-9def-60ae921fc1fc.png)
 
 Then, I used numpy's "ravel" function convert the gathered temperatures for a given month into a list which I then passed into a dataframe. 
 
-![Screen Shot 2020-09-13 at 4 09 05 PM](https://user-images.githubusercontent.com/66881241/93031192-c763b780-f5dd-11ea-9921-1555e900c265.png)
+![Screen Shot 2020-09-13 at 4 08 30 PM](https://user-images.githubusercontent.com/66881241/93031203-df3b3b80-f5dd-11ea-8e55-7c34b55447b3.png)
 
 Lastly, to get the summary statistics, I used the describe method on the newly created dataframe holding the monthly temperature values.
+
+![Screen Shot 2020-09-13 at 4 09 05 PM](https://user-images.githubusercontent.com/66881241/93031192-c763b780-f5dd-11ea-9921-1555e900c265.png)
 
 ## Results
 * Average temperature between the two months was only marginally different at 75 degrees for June and 71 degrees for December. 
