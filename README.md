@@ -3,6 +3,9 @@
 ## Overview
 In this challenge, we pulled data from an SQLite data base and created summary statistics comparing the month of June to the month of December.
 
+### Purpose
+The purpose of this analysis was to find out 
+
 ### Analysis
 Do this, we first imported the required dependencies including the numpy, datetime, pandas, and sqlalchemy dependencies. 
 
@@ -37,4 +40,4 @@ One could be forgiven for expecting a starker average temperature difference bet
 
 
 ### Conclusion
-In conclusion, the data supports the notion that the surf shop will do just fine not just in the Summer but throughout virtually the entire year as far as temperature is concerned. 
+In conclusion, the data supports the notion that the surf shop will do just fine not just in the Summer but throughout virtually the entire year as far as temperature is concerned. However, temperature is not the only factor that keeps tourists and locals indoors. To ensure the success of the surf shop, two more queries should be written: one that gathers data on precipitation levels in June and one that gathers precipitation levels in December.
