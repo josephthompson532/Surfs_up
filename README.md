@@ -4,7 +4,7 @@
 In this challenge, we pulled data from an SQLite data base and created summary statistics comparing the month of June to the month of December.
 
 ### Purpose
-The purpose of this analysis was to find out 
+The purpose of this analysis was to use data from an SQLite database to find out if a vendor shop in Hawaii was a viable business model based on local weather patterns.
 
 ### Analysis
 Do this, we first imported the required dependencies including the numpy, datetime, pandas, and sqlalchemy dependencies. 
